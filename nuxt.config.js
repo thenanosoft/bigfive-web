@@ -217,7 +217,7 @@ export default {
           }
         ],
         seo: true,
-        baseUrl: 'https://bigfive-test.com',
+        baseUrl: 'https://bigfive-web-thenanosoft.vercel.app/',
         defaultLocale: 'en',
         strategy: 'prefix_except_default',
         lazy: true,
@@ -253,7 +253,7 @@ export default {
   axios: {
   },
   sitemap: {
-    hostname: 'https://bigfive-test.com'
+    hostname: 'https://bigfive-web-thenanosoft.vercel.app/',
   },
   webfontloader: {
     google: {
@@ -290,7 +290,7 @@ export default {
     }
   },
   env: {
-    API_URL: 'https://bigfive-test.com/api/' // TODO: Fix for dev environment
+    API_URL: 'https://bigfive-web-thenanosoft.vercel.app/api/' // TODO: Fix for dev environment
   },
   build: {
     extractCSS: true,
