@@ -13,5 +13,7 @@ module.exports = async () => {
 
   cachedDb = db
 
+  console.log('Connected to MongoDB');
+
   return db
 }

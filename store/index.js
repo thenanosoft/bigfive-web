@@ -23,7 +23,7 @@ const getDefaultState = () => ({
   languages,
   test: {
     testStart: 0,
-    itemsPerPage: 3,
+    itemsPerPage: 20,
     answers: [],
     inventory: [],
     position: 0,
